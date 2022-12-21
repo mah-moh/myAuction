@@ -1,4 +1,4 @@
-from app import *
+from main import *
 import models
 
 def Handle_my_bid():

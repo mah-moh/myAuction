@@ -1,4 +1,4 @@
-from app import *
+from main import *
 from datetime import datetime
 import models
 
