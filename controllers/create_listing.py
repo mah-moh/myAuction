@@ -24,5 +24,5 @@ def Handle_add_product():
         db.session.add(new_product)
         db.session.commit()
         flash('Product added successfully', 'success')
-        return redirect(url_for('create_listing'))
+        return redirect(url_for('home'))
     return render_template('add_product.html')
